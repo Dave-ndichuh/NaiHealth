@@ -1,0 +1,63 @@
+{% extends 'starter-page.html' %}
+{% load static %}
+
+{% block body %}
+
+    <!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Our Services</h2>
+    <p>We provide a wide range of healthcare services to cater to your needs</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fas fa-stethoscope"></i> <!-- Updated Icon -->
+          </div>
+          <a href="#" class="stretched-link">
+            <h3>General Consultation</h3> <!-- Updated Service Title -->
+          </a>
+          <p>Our experienced doctors provide comprehensive consultations to help diagnose and treat a wide range of conditions.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fas fa-pills"></i>
+          </div>
+          <a href="#" class="stretched-link">
+            <h3>Pharmacy</h3> <!-- Updated Service Title -->
+          </a>
+          <p>We provide a full-service pharmacy with all your prescribed medications and over-the-counter products.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <a href="#" class="stretched-link">
+            <h3>Cardiology</h3> <!-- Updated Service Title -->
+          </a>
+          <p>We offer expert cardiology services, including diagnostics, treatment plans, and heart disease management.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Add more services as needed -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Services Section -->
+
+{% endblock %}

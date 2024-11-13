@@ -1,0 +1,42 @@
+{% extends 'starter-page.html' %}
+{% load static %}
+
+{% block body %}
+
+    <!-- About Section -->
+<section id="about" class="about section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About Us<br></h2>
+    <p>Providing exceptional healthcare with compassion and expertise for all your medical needs.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+      <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+        <img src="{% static 'assets/img/about.jpg' %}" class="img-fluid" alt="">
+        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+      </div>
+      <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+        <h3>Comprehensive Care, Compassionate Service</h3>
+        <p class="fst-italic">
+          At NaiHealth, we offer a full range of healthcare services, from emergency care to specialized treatments, all in one place.
+        </p>
+        <ul>
+          <li><i class="bi bi-check2-all"></i> <span>Highly skilled medical professionals dedicated to your health.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>State-of-the-art medical facilities for comprehensive care.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Personalized treatment plans tailored to your unique needs.</span></li>
+        </ul>
+        <p>
+          At NaiHealth, we are committed to improving lives through high-quality healthcare. Our team of experts works tirelessly to provide top-notch medical care with compassion and understanding.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- /About Section -->
+
+{% endblock %}
